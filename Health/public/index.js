@@ -1,0 +1,6 @@
+// export { default as Signup } from "./images/Signup.png" 
+export { default as doctorImage } from "./images/doctor.png"
+export { default as doctorImage1 } from "./images/doctor1.png"
+export { default as teamImage} from "./images/team.png"
+export {default as Signup1} from "./images/Signup1.png"
+export {default as Logo} from "./images/Logo.png"

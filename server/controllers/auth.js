@@ -24,10 +24,6 @@ export const signUp = async (req, res) => {
     return res.status(400).send("Last name is required");
   }
 
-  if (!gender) {
-    return res.status(400).send("Gender is required");
-  }
-
   //check for existing user
   const exist = await Patient.findOne({ email });
   if (exist) {

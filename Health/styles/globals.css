@@ -1,0 +1,113 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Poppins font family */
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("../assets/fonts/poppins/Poppins-Thin.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("../assets/fonts/poppins/Poppins-ExtraLight.ttf");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("../assets/fonts/poppins/Poppins-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("../assets/fonts/poppins/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("../assets/fonts/poppins/Poppins-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("../assets/fonts/poppins/Poppins-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("../assets/fonts/poppins/Poppins-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("../assets/fonts/poppins/Poppins-ExtraBold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("../assets/fonts/poppins/Poppins-Black.ttf");
+  font-weight: 900;
+}
+
+/* Raleway font family */
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url("../assets/fonts/raleway/Raleway-Thin.ttf");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url("../assets/fonts/raleway/Raleway-ExtraLight.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url("../assets/fonts/raleway/Raleway-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url("../assets/fonts/raleway/Raleway-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url("../assets/fonts/raleway/Raleway-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url("../assets/fonts/raleway/Raleway-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url("../assets/fonts/raleway/Raleway-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url("../assets/fonts/raleway/Raleway-ExtraBold.ttf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url("../assets/fonts/raleway/Raleway-Black.ttf");
+  font-weight: 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
